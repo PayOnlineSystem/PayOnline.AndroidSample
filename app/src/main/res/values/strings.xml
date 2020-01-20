@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SampleApplication</string>
+    <string name="amount_title">Amount:</string>
+    <string name="card_number_title">Card number:</string>
+    <string name="cvv_number">CVV:</string>
+    <string name="month_title">Month:</string>
+    <string name="year_title">Year:</string>
+    <string name="cardholder_title">Name:</string>
+    <string name="pay_title">PAY</string>
+    <string name="currency_title">Currency:</string>
+    <string name="order_id_title">Order ID:</string>
+    <string name="date_time_title">Date:</string>
+    <string name="status_title">Status:</string>
+    <string name="transaction_title">Transaction:</string>
+    <string name="fiscal_title">Create fiscal payload</string>
+    <string name="rebill_acnhor_title">Rebill anchor</string>
+    <string name="test_card_number">4111111111111111</string>
+    <string name="test_amount">2.00</string>
+    <string name="test_month">05</string>
+    <string name="test_year">26</string>
+    <string name="test_cardholdername">TEST CUSTOMER</string>
+    <string name="test_cvv">152</string>
+
+    <string translatable="false" name="googlepay_status_unavailable">Unfortunately, Google Pay is not available on this phone.</string>
+
+    <string translatable="false" name="googlepay_status_checking">Checking if Google Pay is available...</string>
+
+    <string translatable="false" name="payments_show_name">Successfully received payment data for %s!</string>
+</resources>
