@@ -29,9 +29,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var paymentsClient: PaymentsClient
     private val LOAD_PAYMENT_DATA_REQUEST_CODE = 991
-    private val shippingCost = (2).toLong()
-    private lateinit var garmentList: JSONArray
-    private lateinit var selectedGarment: JSONObject
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +36,8 @@ class MainActivity : AppCompatActivity() {
 
         paymentsClient = PaymentsUtil.createPaymentsClient(this)
         possiblyShowGooglePayButton()
+
+        googlePayButton.setOnClickListener { requestPayment() }
 
         payButton.setOnClickListener{
             if(validateRequest()){
