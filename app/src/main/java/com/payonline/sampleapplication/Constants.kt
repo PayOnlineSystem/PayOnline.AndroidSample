@@ -3,10 +3,10 @@ package com.payonline.sampleapplication
 import com.google.android.gms.wallet.WalletConstants
 
 object Constants{
-    const val HOST = "https://secure.payonlinesystem.loc/"
-    const val MERCHANT_ID = 502088
-    const val PRIVATE_SECURITY_KEY = "f3b2462f-d2e1-4743-8b61-dd96677135f9"
-    const val TERM_URL = "https://www.payonline.ru/"
+    const val HOST = "https://secure.payonlinesystem.com/"
+    const val MERCHANT_ID = 0
+    const val PRIVATE_SECURITY_KEY = "Your PayOnline private key"
+    const val TERM_URL = "https://yourtermurl.com"
 }
 
 object IntentParameterNames{

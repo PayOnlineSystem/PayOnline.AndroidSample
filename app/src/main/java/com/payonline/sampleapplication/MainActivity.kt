@@ -335,6 +335,7 @@ class MainActivity : AppCompatActivity() {
         requestForGoogle.orderId = Random.nextInt(900000).toString();
         requestForGoogle.googleMerchantId = "12345678901234567890";
         requestForGoogle.currency = "RUB"
+        requestForGoogle.email = "your@mail.com"
 
         requestForGoogle.googlePaymentToken = token
 
